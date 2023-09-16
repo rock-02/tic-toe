@@ -1,0 +1,30 @@
+.grid {
+  display: flex;
+  width: 400px;
+  height: 400px;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.turn-highlight {
+  color: white;
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.grid-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 100px;
+}
+
+button {
+  width: 400px;
+  height: 60px;
+  font-size: 30px;
+  font-weight: 600;
+  background-color: green;
+}
